@@ -32,13 +32,12 @@ clean:
 	rm -f solve.so solve_bs solve_piwi_bs solve_piwi libnfc_crypto1_crack
 
 get_craptev1:
-	echo 'Stop being lazy, find your own file!'
+	echo 'File Found'
 	wget https://github.com/droidnewbie2/acr122uNFC/raw/master/craptev1-v1.1.tar.xz
 	tar Jxvf craptev1-v1.1.tar.xz
 
 get_crapto1:
-	echo 'Stop being lazy, find your own file!'
-	wget -nH -nd -r -l1 -A.xz https://web.archive.org/web/20190221140255/http://www2.vaneay.fr/mifare/crapto1-v3.3.tar.xz
+	echo 'File Already Downloaded'
 	mkdir crapto1-v3.3
 	tar Jxvf crapto1-v3.3.tar.xz -C crapto1-v3.3
 
