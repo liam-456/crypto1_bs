@@ -38,7 +38,7 @@ get_craptev1:
 
 get_crapto1:
 	echo 'Stop being lazy, find your own file!'
-	wget https://github.com/droidnewbie2/acr122uNFC/raw/master/craptev1-v1.1.tar.xz
+	wget -nH -nd -r -l1 -A.xz https://web.archive.org/web/20190221140255/http://www2.vaneay.fr/mifare/crapto1-v3.3.tar.xz
 	mkdir crapto1-v3.3
 	tar Jxvf crapto1-v3.3.tar.xz -C crapto1-v3.3
 
